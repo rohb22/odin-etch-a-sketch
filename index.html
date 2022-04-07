@@ -10,8 +10,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar"></div>
+        <div class="sidebar">
+            <input class="color-picker" type="color" value="#000000">
+            <div class="tools brush-button">
+                <img src="./images/brush.png">
+                <span class="tool-text">Brush</span>
+            </div>
+            <div class="tools rainbow-button">
+                <img src="./images/rainbow.png">
+                <span class="tool-text">Random Color</span>
+            </div>
+            <div class="tools eraser-button">
+                <img src="./images/eraser.png">
+                <span class="tool-text">Eraser</span>
+            </div>
+            <div class="tools clear-button">
+                <img src="./images/clear.png">
+                <span class="tool-text">Clear</span>
+            </div>
+            <div class="size-range">
+                <label for="size">16x16</label>
+                <input type="range" min="1" max="64" value="16" name="size">    
+            </div>
+        </div>
         <div class="grid-container">
+            <div class="header">Etch A Sketch</div>
             <div class="grid"></div>
         </div>
     </div>
