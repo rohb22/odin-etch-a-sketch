@@ -114,7 +114,7 @@ img {
   }
   
   /* Tooltip text */
-  .tools .tool-text {
+.tools .tool-text {
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -136,7 +136,7 @@ img {
   }
   
   /* Tooltip arrow */
-  .tools .tool-text::after {
+.tools .tool-text::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -148,7 +148,15 @@ img {
   }
   
   /* Show the tooltip text when you mouse over the tooltip container */
-  .tools:hover .tool-text {
+.tools:hover .tool-text {
     visibility: visible;
     opacity: 1;
   }
+
+.grid {
+    display: grid;
+}
+
+.grid-box {
+    user-select: none;
+}
