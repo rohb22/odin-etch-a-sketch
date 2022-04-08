@@ -11,8 +11,8 @@ function rainbowGrid(box) {
     box.style.backgroundColor = getRandomColor();
 }
 
-function eraserGrid() {
-    return
+function eraserGrid(box) {
+    box.style.backgroundColor = 'white';
 }
 
 function triggered(e) {
